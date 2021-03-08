@@ -9,6 +9,9 @@ module.exports = {
     return a*b;
   },
   division : (a, b) => {
+    if (b === 0) {
+      return false;
+    }
     return a/b;
   },
 };
