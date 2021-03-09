@@ -12,7 +12,8 @@
     "sails": "^1.4.0",
     "sails-hook-grunt": "^4.0.0",
     "sails-hook-orm": "^3.0.1",
-    "sails-hook-sockets": "^2.0.0"
+    "sails-hook-sockets": "^2.0.0",
+    "sinon": "^9.2.4"
   },
   "devDependencies": {
     "assert": "^2.0.0",
