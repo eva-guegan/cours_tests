@@ -8,6 +8,7 @@ pipeline {
     }
     stage('run test'){
       steps {
+        bat 'npm install mocha -g'
         bat 'npm test'
         }
       }
