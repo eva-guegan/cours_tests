@@ -4,8 +4,12 @@ pipeline {
     stage('install dependencies'){
       steps {
         bat 'npm install'
-        bat 'npm test'
       }
     }
+    stage('run test'){
+      steps {
+        bat 'npm test'
+        }
+      }
   }
 }
