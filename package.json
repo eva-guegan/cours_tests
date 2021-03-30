@@ -17,7 +17,8 @@
   },
   "devDependencies": {
     "assert": "^2.0.0",
-    "eslint": "5.16.0"
+    "eslint": "5.16.0",
+    "xunit-file": "^1.0.0"
   },
   "scripts": {
     "start": "NODE_ENV=production node app.js",
@@ -34,5 +35,11 @@
   "license": "",
   "engines": {
     "node": "^14.16"
+  },
+  "file" : "${cwd}/xunit.xml",
+  "consoleOutput" : {
+    "suite" : true,
+    "test" : true,
+    "fail" : false
   }
 }
